@@ -1,0 +1,28 @@
+{
+	"foo" :
+	{
+		"bar" :
+		{
+			"en" : "foo.bar.en",
+			"de" : "foo.bar.de"
+		},
+		"bars" :
+		{
+			"en" :
+			[
+				"foo.bar.en1 {user.name%s}",
+				"foo.bar.en2"
+			],
+			"de" :
+			[
+				"foo.bar.de1",
+				"foo.bar.de2"
+			]
+		},
+		"user" : 
+		{
+			"en" : "foo.user.en {user.name%s}",
+			"de" : "foo.user.de {user.name%s}"
+		}
+	}
+}
